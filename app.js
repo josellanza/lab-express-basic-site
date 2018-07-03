@@ -10,8 +10,8 @@ app.get('/', (request, response, next) => {
     response.sendFile(__dirname + '/views/home-page.html');
 });
 
-app.get('/about', (request, response, next) => {
-    response.sendFile(__dirname + '/views/about.html');
+app.get('/ranking', (request, response, next) => {
+    response.sendFile(__dirname + '/views/ranking.html');
 });
 
 app.get('/gallery', (request, response, next) => {
