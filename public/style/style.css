@@ -1,0 +1,42 @@
+
+/* ---- reset ---- */
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(183, 201, 229);
+  }
+  
+
+.image {
+    width: 800px;
+    height: 500px;
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#link {
+    text-align: center;
+    display: grid;
+}
+
+a {
+    font-size: 1.2em;
+}
